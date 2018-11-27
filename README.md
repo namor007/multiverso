@@ -1,2 +1,2 @@
 # multiverso
-Descrever o universo
+Criar universos computacionais
