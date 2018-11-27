@@ -3,8 +3,18 @@ C      =================================================
 C        este programa é para o universo
 C      ================================================
        Implicit None
-       Real*8 a !--------------------------------------> essa variavel mede a energia
-       a = 2.d0
+	real, dimension(10) :: field1
+	integer :: idx
+
        print*,'Faça-se a luz! '
-       write(*,*)'a = ', a
+
+	do idx =1,10
+   		field1(idx) = idx
+	end do
+
+	!display the values
+	do idx = 1, 10
+		Print *, field1(idx)
+	end do
+
        End 
